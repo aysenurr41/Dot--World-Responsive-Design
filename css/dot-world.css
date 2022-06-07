@@ -1,0 +1,188 @@
+.main-header{
+    background: url('../images/bg.png') no-repeat center/cover ;
+    height: 100vh;
+    width: 100%;
+
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3Csvg width='15' height='14' viewBox='0 0 15 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0H15V1.66667H0V0ZM0 5.83317H15V7.49984H0V5.83317ZM15 11.6665H0V13.3332H15V11.6665Z' fill='white'/%3E%3C/svg%3E%0A") !important;
+}
+
+
+.button_navbar-container , .button_navbar-lg-container{
+    width: 170px;
+    height: 60px;
+    background-image: url(../images/btn-navbar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FED201;
+}
+
+
+.navbar-nav .nav-link {
+    display: flex;
+    justify-content: end;
+    padding-right: 5px;
+}
+
+h2, p{
+    padding: 20px 0 !important;
+}
+
+ .button-container{
+    width: 170px;
+    height: 60px;
+    background-image: url(../images/card-btn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+  
+   
+}
+.welcome-page-container{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+    color: #fff;
+
+}
+.welcome-page-container .welcome-title{
+    width: 740px;
+     height: 148px;
+}
+.welcome-page-container .welcome-title h1{
+    font-size: 60px;
+    line-height: 74px;
+    font-weight: 800;
+   
+}
+
+.welcome-page-container .welcome-title p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+   margin-top: 30px !important;
+   
+   
+}
+.card_button-continer{
+   display: flex ;
+    margin-top: 150px !important;
+    gap: 15px;
+    
+}
+.card_button-sm-continer {
+   
+    padding-top: 150px; 
+    display: none;
+ 
+}
+
+
+
+.section-criptoloria , .section-ms_doge , .section-seven-realms, .footer-contact{
+    
+    background: #000;
+}
+
+.ms-doge  .stake__our-community__logo-title{
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 57px;
+    color: #FED201;
+
+}
+
+.footer-contact p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar{
+        background-color: #000;
+    }
+    .button_navbar-container{
+        width: 114px;
+        height: 45px;
+        font-size: 12px;
+    }  
+    .button_navbar-lg-container{
+        display: none;
+    } 
+    
+   
+    .welcome-page-container .welcome-title{
+        margin-top: 50px;
+
+    width: 363px;
+     height: 142px;
+} 
+     .welcome-page-container .welcome-title h1{
+        font-size: 36px;
+        line-height: 50px;
+    
+    }
+    .welcome-page-container .welcome-title p{
+        font-size: 14px;
+        line-height: 28px;
+    
+    }
+    .card_button-continer{
+         display: none;
+    
+    }
+    .card_button-sm-continer {
+
+         
+        display:flex;
+        gap: 10px;
+     
+    }
+    .card_button-sm-continer .button-container{
+        width: 114px;
+        height: 41px;
+        font-size: 12px;
+       
+    }
+  
+
+     .stake__our-community_logo{
+       margin-bottom: 10px;
+        width: 60px;
+        height: 60px;
+    } 
+    .ms-doge .stake__our-community__logo-title{
+        
+        padding-left: 5px;
+        font-size: 34px;
+        line-height: 34px;
+    }
+  .card-image{
+display: none;
+  }
+
+  .seven-realms-logo{
+    width: 328px;
+    height: 76px;
+  }
+  .seven-realms-character{
+    width: 359px;
+    height: 342px;
+  }
+       
+  }
